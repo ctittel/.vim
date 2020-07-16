@@ -1,0 +1,5 @@
+= My vim config
+
+Currently contains:
+- installation script for windows (installs the plugin vim-plug which is able to install other plugins directly from GitHub)
+- installation of https://github.com/habamax/vim-asciidoctor[vim-asciidoctor] which is able to do AsciiDocotor code highlighting stuff 
