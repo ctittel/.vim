@@ -11,3 +11,8 @@ Currently contains:
 
 === Step 2: Installation of plugins
 - Open vim and run the command `:PlugInstall` to install the https://github.com/junegunn/vim-plug[vim-plug] plugins
+
+== Setup
+- To use notational-fzf-vim:
+    - install fzf and rg
+    - set system environment variable `$NOTES` to `path/to/note/directory` - *important:* no trailing slash at the end of the path 
