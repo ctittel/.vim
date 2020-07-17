@@ -26,5 +26,14 @@ let g:asciidoctor_fold_options = 1
 let g:nv_search_paths = [$NOTES.'']
 let g:nv_default_extension = '.md'
 
-" Make backspace work
+" Make backspace work like in other programs
 set backspace=indent,eol,start
+
+" Make indent 2 spaces
+filetype plugin indent on
+" show existing tab with 2 spaces width
+set tabstop=2
+" when indenting with '>', use 2 spaces width
+set shiftwidth=2
+" On pressing tab, insert 2 spaces
+set expandtab

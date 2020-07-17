@@ -4,6 +4,11 @@ Currently contains:
 - installation script for windows (installs the plugin vim-plug which is able to install other plugins directly from GitHub)
 - installation of https://github.com/habamax/vim-asciidoctor[vim-asciidoctor] which is able to do AsciiDocotor code highlighting stuff 
 
+- this vim configuration is to make vim good for note taking
+- key plugins:
+  - plugins for markdown, org-mode and asciidoc formats
+  - for quick and powerful searching and creating of nodes: currently using notational-fzf-vim 
+
 == Installation
 === Step 1: Cloning of the directory
 - Linux: clone directly into the home directory (`~`); *CURRENTLY MISSING SCRIPT TO INSTALL `vim-plug` FROM GITHUB, ADAPT FROM `windows_install.ps1`*
@@ -14,5 +19,5 @@ Currently contains:
 
 == Setup
 - To use notational-fzf-vim:
-    - install fzf and rg
-    - set system environment variable `$NOTES` to `path/to/note/directory` - *important:* no trailing slash at the end of the path 
+  - install fzf and rg
+  - set system environment variable `$NOTES` to `path/to/note/directory` - *important:* no trailing slash at the end of the path 
