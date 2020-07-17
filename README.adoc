@@ -3,3 +3,11 @@
 Currently contains:
 - installation script for windows (installs the plugin vim-plug which is able to install other plugins directly from GitHub)
 - installation of https://github.com/habamax/vim-asciidoctor[vim-asciidoctor] which is able to do AsciiDocotor code highlighting stuff 
+
+== Installation
+=== Step 1: Cloning of the directory
+- Linux: clone directly into the home directory (`~`); *CURRENTLY MISSING SCRIPT TO INSTALL `vim-plug` FROM GITHUB, ADAPT FROM `windows_install.ps1`*
+- Windows: clone into the user directory (`%userprofile%`) and rename the folder to `vimfiles`, then run the installation script `windows_install.ps1`
+
+=== Step 2: Installation of plugins
+- Open vim and run the command `:PlugInstall` to install the https://github.com/junegunn/vim-plug[vim-plug] plugins
