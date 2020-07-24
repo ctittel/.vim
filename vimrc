@@ -9,6 +9,7 @@ Plug 'habamax/vim-asciidoctor'
 Plug 'jceb/vim-orgmode'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'alok/notational-fzf-vim'
+Plug 'tpope/vim-speeddating'
 call plug#end()
 
 " write PlugInstall to install those plugins
@@ -20,11 +21,11 @@ set encoding=utf-8
 let g:asciidoctor_folding = 1
 
 " Fold options, default `0`.
-let g:asciidoctor_fold_options = 1
+" let g:asciidoctor_fold_options = 1
 
 " notational-fzf-vim
 let g:nv_search_paths = [$NOTES.'']
-let g:nv_default_extension = '.md'
+let g:nv_default_extension = ''
 
 " Make backspace work like in other programs
 set backspace=indent,eol,start
@@ -37,3 +38,9 @@ set tabstop=2
 set shiftwidth=2
 " On pressing tab, insert 2 spaces
 set expandtab
+
+if has("gui_running")
+  " GUI is running or is about to start.
+  " Maximize gvim window.
+  set lines=999 columns=999
+endif
