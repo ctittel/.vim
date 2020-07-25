@@ -10,6 +10,7 @@ Plug 'jceb/vim-orgmode'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'alok/notational-fzf-vim'
 Plug 'tpope/vim-speeddating'
+Plug 'flazz/vim-colorschemes'
 call plug#end()
 
 " write PlugInstall to install those plugins
@@ -38,6 +39,9 @@ set tabstop=2
 set shiftwidth=2
 " On pressing tab, insert 2 spaces
 set expandtab
+
+colorscheme parsec
+set guifont=Source_Code_Pro:h12
 
 if has("gui_running")
   " GUI is running or is about to start.
