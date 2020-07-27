@@ -9,6 +9,19 @@ Currently contains:
   - plugins for markdown, org-mode and asciidoc formats
   - for quick and powerful searching and creating of nodes: currently using notational-fzf-vim 
 
+== Functions
+=== General
+- backspace is configured to delete (like in other programs) - this is non-standard behavior
+
+=== https://github.com/junegunn/vim-plug[vim-plug] 
+- `:PlugInstall`: install all the configured plugins 
+- `:PlugUpgrade`: upgrade vim-plug
+- `:PlugUpdate`: update all configured plugins
+
+=== https://github.com/tpope/vim-fugitive[vim-fugitive]
+- `:Gmove`: rename files
+- its really a git plugin with lots of functions
+
 == Installation
 === Step 1: Cloning of the directory
 - Linux: clone directly into the home directory (`~`); *CURRENTLY MISSING SCRIPT TO INSTALL `vim-plug` FROM GITHUB, ADAPT FROM `windows_install.ps1`*
