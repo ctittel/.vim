@@ -29,6 +29,8 @@ Currently contains:
 
 === Step 2: Installation of plugins
 - Open vim and run the command `:PlugInstall` to install the https://github.com/junegunn/vim-plug[vim-plug] plugins
+** Update plugins with `:PlugUpdate`
+** Update `vim-plug` with `:PlugUpgrade`
 
 == Setup
 - To use notational-fzf-vim:
