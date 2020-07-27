@@ -11,6 +11,7 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'alok/notational-fzf-vim'
 Plug 'tpope/vim-speeddating'
 Plug 'flazz/vim-colorschemes'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 " write PlugInstall to install those plugins
@@ -42,6 +43,8 @@ set expandtab
 
 colorscheme parsec
 set guifont=Source_Code_Pro:h12
+set incsearch
+set hlsearch
 
 if has("gui_running")
   " GUI is running or is about to start.
